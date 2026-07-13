@@ -110,10 +110,7 @@ export function HeroFrameBackground() {
         targetFrame = Math.round(20 + ratio * (57 - 20));
       } else if (p < 0.8) {
         const ratio = (p - 0.6) / 0.2;
-        targetFrame = Math.round(59 + ratio * (75 - 59));
-      } else if (p < 0.96) {
-        const ratio = (p - 0.8) / 0.16;
-        targetFrame = Math.round(76 + ratio * (96 - 76));
+        targetFrame = Math.round(59 + ratio * (96 - 59));
       } else {
         targetFrame = 96;
       }
@@ -155,7 +152,7 @@ export function HeroFrameBackground() {
       if (progressContainerRef.current) {
         const scrollY = window.scrollY;
         const h = window.innerHeight;
-        const isPastHero = scrollY >= 5 * h || smoothP >= 0.98;
+        const isPastHero = scrollY >= 4.8 * h || smoothP >= 0.98;
         progressContainerRef.current.style.opacity = isPastHero ? "0" : "1";
         progressContainerRef.current.style.visibility = isPastHero
           ? "hidden"
@@ -169,7 +166,6 @@ export function HeroFrameBackground() {
     window.addEventListener("resize", handleScroll);
     handleScroll();
 
-    // ── Preload PRELOAD_COUNT frame pertama, lalu langsung mulai ──
     const preload = async () => {
       const promises: Promise<void>[] = [];
       for (let i = 0; i < PRELOAD_COUNT; i++) {

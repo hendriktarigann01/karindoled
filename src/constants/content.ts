@@ -210,8 +210,8 @@ export const BRANCHES_CONTENT: BranchContent = {
         "10.00 – 18.00 (Senin - Jumat), 08.00 - 18.00 (Sabtu), 09.00 - 17.00 (Minggu)",
     },
     {
-      id: "br-bali",
-      name: "Karindo Mitra Bali",
+      id: "br-surabaya",
+      name: "Karindo Mitra Surabaya",
       address:
         "Ruko Rungkut Megah Raya, 27 Kedung Baruk Kec Blk Q, Kedung Baruk, Kec. Rungkut, Surabaya, Jawa Timur 60246",
       phone: "+62 811-1285-535",
