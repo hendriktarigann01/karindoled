@@ -116,8 +116,8 @@ export function HeroFrameBackground() {
         targetFrame = Math.round(76 + ratio * (96 - 76));
       }
 
-      if (scrollY > 4 * h) {
-        opacity = Math.max(0, 1 - (scrollY - 4 * h) / (0.6 * h));
+      if (scrollY > 5 * h) {
+        opacity = Math.max(0, 1 - (scrollY - 5 * h) / (0.6 * h));
       } else {
         opacity = 1;
       }
@@ -153,7 +153,7 @@ export function HeroFrameBackground() {
       if (progressContainerRef.current) {
         const scrollY = window.scrollY;
         const h = window.innerHeight;
-        const isPastHero = scrollY >= 4.8 * h || smoothP >= 0.98;
+        const isPastHero = scrollY >= 5 * h || smoothP >= 0.98;
         progressContainerRef.current.style.opacity = isPastHero ? "0" : "1";
         progressContainerRef.current.style.visibility = isPastHero
           ? "hidden"
@@ -216,7 +216,7 @@ export function HeroFrameBackground() {
       {/* ── Canvas background — fixed ── */}
       <div
         ref={containerRef}
-        className="fixed inset-0 z-0 pointer-events-none w-full h-full overflow-hidden"
+        className="fixed inset-0 z-10 pointer-events-none w-full h-full overflow-hidden"
         suppressHydrationWarning
       >
         <canvas
