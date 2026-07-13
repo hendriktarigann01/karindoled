@@ -216,7 +216,7 @@ export function HeroFrameBackground() {
       {/* ── Canvas background — fixed ── */}
       <div
         ref={containerRef}
-        className="fixed inset-0 z-10 pointer-events-none w-full h-full overflow-hidden"
+        className="fixed inset-0 z-0 pointer-events-none w-full h-full overflow-hidden"
         suppressHydrationWarning
       >
         <canvas
