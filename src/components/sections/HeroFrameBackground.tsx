@@ -111,9 +111,11 @@ export function HeroFrameBackground() {
       } else if (p < 0.8) {
         const ratio = (p - 0.6) / 0.2;
         targetFrame = Math.round(59 + ratio * (75 - 59));
-      } else {
-        const ratio = Math.min(1, (p - 0.8) / 0.2);
+      } else if (p < 0.96) {
+        const ratio = (p - 0.8) / 0.16;
         targetFrame = Math.round(76 + ratio * (96 - 76));
+      } else {
+        targetFrame = 96;
       }
 
       if (scrollY > 5 * h) {
