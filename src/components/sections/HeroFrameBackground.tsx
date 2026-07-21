@@ -99,7 +99,7 @@ export function HeroFrameBackground() {
       // Slide 2 (p: 0.20 - 0.40) -> frame 0 to 20
       // Slide 3 (p: 0.40 - 0.60) -> frame 20 to 57
       // Slide 4 (p: 0.60 - 0.80) -> frame 59 to 75
-      // Slide 5 (p: 0.80 - 1.00) -> frame 76 to 96
+      // Slide 5 (p: 0.80 - 1.00) -> frame 76 to 99
       if (p < 0.2) {
         targetFrame = 0;
       } else if (p < 0.4) {
@@ -110,9 +110,9 @@ export function HeroFrameBackground() {
         targetFrame = Math.round(20 + ratio * (57 - 20));
       } else if (p < 0.8) {
         const ratio = (p - 0.6) / 0.2;
-        targetFrame = Math.round(59 + ratio * (96 - 59));
+        targetFrame = Math.round(59 + ratio * (99 - 59));
       } else {
-        targetFrame = 96;
+        targetFrame = 99;
       }
 
       if (scrollY > 5 * h) {
@@ -139,8 +139,8 @@ export function HeroFrameBackground() {
         container.style.visibility = opacity > 0.01 ? "visible" : "hidden";
       }
 
-      // Update Loading Bar di bagian bawah (relative to frame 96 where active sequence ends)
-      const smoothP = currentFrame / 96;
+      // Update Loading Bar di bagian bawah (relative to frame 99 where active sequence ends)
+      const smoothP = currentFrame / 99;
       const percentage = Math.min(100, Math.max(0, Math.round(smoothP * 100)));
 
       if (progressBarRef.current) {

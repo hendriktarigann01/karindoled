@@ -22,7 +22,7 @@ export const HERO_CONTENT: HeroContent = {
     primary:   "Hubungi WhatsApp Sales",
     secondary: "Lihat Katalog Produk",
   },
-  totalFrames: 101,
+  totalFrames: 100,
   frameDir:    "/frame-karindo-parallax",
   frameName:   "frame_",
   slides: [
