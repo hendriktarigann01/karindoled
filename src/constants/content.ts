@@ -196,7 +196,7 @@ export const BRANCHES_CONTENT: BranchContent = {
       name: "Karindo Mitra Yogyakarta",
       address:
         "Jl. Elang Jawa No.1 Malangrejo, Wedomartani, Ngemplak, Sleman, Yogyakarta",
-      phone: "+62 811-1223-402",
+      phone: "+62 812-3456-7890",
       hours:
         "10.00 – 18.00 (Senin - Jumat), 08.00 - 18.00 (Sabtu), 09.00 - 17.00 (Minggu)",
     },
@@ -205,7 +205,7 @@ export const BRANCHES_CONTENT: BranchContent = {
       name: "Karindo Mitra Bali",
       address:
         "Jalan Uluwatu 100x, banjar kelan abian, kelan, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361",
-      phone: "+62 812-8126-391",
+      phone: "+62 812-3456-7891",
       hours:
         "10.00 – 18.00 (Senin - Jumat), 08.00 - 18.00 (Sabtu), 09.00 - 17.00 (Minggu)",
     },
@@ -214,7 +214,7 @@ export const BRANCHES_CONTENT: BranchContent = {
       name: "Karindo Mitra Surabaya",
       address:
         "Ruko Rungkut Megah Raya, 27 Kedung Baruk Kec Blk Q, Kedung Baruk, Kec. Rungkut, Surabaya, Jawa Timur 60246",
-      phone: "+62 811-1285-535",
+      phone: "+62 812-3456-7892",
       hours:
         "10.00 – 18.00 (Senin - Jumat), 08.00 - 18.00 (Sabtu), 09.00 - 17.00 (Minggu)",
     },
@@ -230,7 +230,7 @@ export const LOCATION_CONTENT: LocationContent = {
     "Berpusat di Grand Wisata Bekasi, kantor pusat kami mengoordinasikan seluruh distribusi penjualan, jaringan rental nasional, operasional import service, manajemen alkes, dan layanan perbaikan service center terpadu guna mewujudkan pelayanan multimedia visual nomor satu di Indonesia.",
   address:
     "Ruko Celebration Grand Wisata Bekasi, Lambangsari, Kec. Tambun Sel., Kabupaten Bekasi, Jawa Barat 17510, Bekasi 17510, Jawa Barat",
-  phone: "+62 21-82623313 (Kantor) / +62 811-1161-2238 (Sales)",
+  phone: "+62 21-00000000 (Kantor) / +62 812-3456-7890 (Sales)",
   hours: {
     "Senin - Jumat": "10.00 – 18.00",
     Sabtu: "08.00 – 18.00",

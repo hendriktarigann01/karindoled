@@ -24,7 +24,7 @@ export const SITE_CONFIG = {
 
   /** Nomor WhatsApp (format internasional, tanpa +) */
   whatsapp: {
-    number: "628111612238",
+    number: "6281234567890",
     message:
       "Halo Karindo LED, saya tertarik dengan produk dan solusi LED Display atau Video Processor.",
   },

@@ -56,7 +56,7 @@ export default function HomePage() {
             name: SITE_CONFIG.name,
             image: SITE_CONFIG.url + "/karindo.png",
             url: SITE_CONFIG.url,
-            telephone: "+622182623313",
+            telephone: "+622100000000",
             logo: SITE_CONFIG.url + "/karindo.png",
             address: {
               "@type": "PostalAddress",
